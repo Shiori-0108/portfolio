@@ -103,11 +103,6 @@ img {
     margin-top: 55px;
 }
 
-.about .heading {
-    margin-top: -80px;
-}
-
-
 /* ABOUTもっと見るボタン */
 /*表示するテキストが切り替わる*/
 .about_btntextchange {
@@ -137,6 +132,7 @@ img {
 @media screen and (max-width: 767px) {
     .about_btntextchange {
         margin-left: 0;
+        margin-top: 10px;
     }
 }
 
@@ -619,7 +615,7 @@ img {
 
     .contact_wrap p {
         font-family: "yu-gothic", sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.75;
     }
 
@@ -635,7 +631,6 @@ img {
         line-height: 1.75;
     }
 
-
     .form_item_input {
         box-sizing: border-box;
         padding: 10px 20px;
@@ -643,7 +638,6 @@ img {
         width: 100%;
         font-size: 18px;
     }
-
 
     .form_item_textarea {
         padding: 10px;
@@ -658,6 +652,7 @@ img {
         margin: 0 auto;
         padding: 5px 0;
         width: 120px;
+        height: auto;
         display: block;
         letter-spacing: 0.1rem;
         background: #fff;
@@ -665,9 +660,6 @@ img {
         border: 1px solid #afb6b3;
     }
 }
-
-
-
 
 
 /* サンクスページ */
@@ -701,7 +693,6 @@ img {
 
 
 @media screen and (max-width: 767px) {
-
     .thanks {
         margin-top: 110px;
         margin: 0 auto;
@@ -725,8 +716,6 @@ img {
         font-family: "yu-gothic", sans-serif;
         font-size: 14px;
         line-height: 1.87;
-        /* font-weight: medium; */
-
     }
 }
 

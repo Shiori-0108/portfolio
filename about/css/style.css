@@ -131,8 +131,6 @@
     }
 
     .about_text {
-        padding-right: 10px;
-        padding-left: 10px;
         margin: 0 auto;
         width: 100%;
     }
@@ -142,13 +140,13 @@
     }
 
     .about_top {
-        margin: 0 34px;
+        padding: 0;
+        margin-top: 20px;
     }
 
     .about_top p {
         width: 89%;
         font-size: 10px;
-        padding: 15px;
         line-height: 1.4;
     }
 
@@ -413,6 +411,21 @@ li>p {
 }
 
 
+@media screen and (max-width: 767px) {
+    .favorite_hover_1 {
+        position: none;
+    }
+
+    .favorite_hover_2 {
+        position: none;
+    }
+
+    .favorite_hover_3 {
+        position: none;
+    }
+}
+
+
 /* モーダルウィンドウ */
 .modalArea {
     display: none;
@@ -476,8 +489,12 @@ li>p {
     }
 
     .modalContents p {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 1.7;
+    }
+
+    .closeModal {
+        right: 2.5rem;
     }
 }
 

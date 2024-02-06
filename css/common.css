@@ -81,12 +81,12 @@ section {
     padding-top: 170px;
 }
 
+
 @media screen and (max-width: 767px) {
     .heading {
-        margin: 40px auto 0;
+        padding-top: 80px;
     }
 }
-
 
 /* ナビゲーションメニュー */
 .nav {
