@@ -37,7 +37,6 @@ img {
     .top_title {
         position: absolute;
         text-align: center;
-        /* あとは位置を調整 */
         top: 50%;
         line-height: 1.35;
         letter-spacing: 0.040em;
@@ -67,7 +66,7 @@ img {
     height: auto;
 }
 
-.about_text {
+.about_message {
     width: 45%;
     margin-top: 50px;
     margin: 20px 30px 20px 100px;
@@ -79,7 +78,6 @@ img {
     font-family: "yu-gothic-pr6n", sans-serif;
     font-weight: normal;
     line-height: 1.8;
-    letter-spacing: 0.040em;
 }
 
 .about_space {
@@ -192,7 +190,7 @@ img {
         margin: 0 auto;
     }
 
-    .about_text {
+    .about_message {
         text-align: center;
         width: 100%;
         margin: 20px 10px;
@@ -289,32 +287,10 @@ img {
         line-height: 1.9;
         text-align: justify;
     }
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ワークス */
-/* .works_ {
-    display: flex;
-    justify-content: space-between;
-} */
+/* WORKS */
 .works {
     max-width: 1000px;
     margin: 0 auto;
@@ -345,9 +321,6 @@ img {
     margin: 0 30px;
 }
 
-
-
-/* 仮 */
 /* ギャラリー スライダー調整 */
 .dots-class button {
     display: none;
@@ -388,19 +361,13 @@ img {
     margin-right: 0;
 }
 
-/* ここからが不明点
-デフォルトのものを無くせない、ドットを写真の下に下ろせない  */
-
 .slick-prev .slick-arrow {
     display: none;
-
 }
 
 .slick-next .slick-arrow {
     display: none;
 }
-
-
 
 
 @media screen and (max-width: 767px) {
@@ -414,34 +381,11 @@ img {
         flex-direction: column;
     }
 
-    /* .works img {
-        max-width: 100%
-    } */
-
     .page_top {
         position: fixed;
         right: 60px;
         bottom: 40px;
     }
-
-    /* 
-    消す
-    .works_btn {
-        display: block;
-        width: 260px;
-        height: 48px;
-        margin: 0 auto;
-        color: white;
-        font-family: "yu-gothic", sans-serif;
-        letter-spacing: 0.06em;
-        border-radius: 50px;
-        font-size: 16px;
-        background-color: #384842;
-        text-align: center;
-        line-height: 3;
-        padding: 10px 0;
-        margin-top: 50px;
-    } */
 }
 
 /* WORKSもっと見るボタン */
@@ -509,9 +453,7 @@ img {
 }
 
 
-
-
-/* コンタクト */
+/* CONTACT */
 .contact {
     max-width: 1000px;
     margin: 0 auto;
@@ -649,15 +591,10 @@ img {
     }
 
     .form_btn {
-        margin: 0 auto;
-        padding: 5px 0;
         width: 120px;
-        height: auto;
+        height: 40px;
         display: block;
-        letter-spacing: 0.1rem;
-        background: #fff;
         font-size: 12px;
-        border: 1px solid #afb6b3;
     }
 }
 
