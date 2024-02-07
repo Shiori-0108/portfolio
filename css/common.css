@@ -220,6 +220,13 @@ section {
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 }
 
+
+@media screen and (max-width: 767px) {
+    .sp_nav ul {
+        margin-top: 0;
+    }
+}
+
 .wrapper {
     margin-right: 140px;
 }
