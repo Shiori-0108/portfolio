@@ -247,7 +247,7 @@ li>p {
     }
 
     li {
-        display: flex;
+        display: block;
         flex-direction: column;
     }
 
@@ -263,7 +263,7 @@ li>p {
     }
 
     li>div {
-        width: 12%;
+        width: 100%;
         border-right: none;
         font-family: "yu-gothic-pr6n", sans-serif;
     }
