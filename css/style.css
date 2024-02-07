@@ -183,6 +183,7 @@ img {
         width: 100%;
         display: flex;
         flex-direction: column;
+        margin-top: 0;
     }
 
     .about_img {
@@ -389,7 +390,6 @@ img {
 }
 
 /* WORKSもっと見るボタン */
-
 /*表示するテキストが切り替わる*/
 .works_btntextchange {
     /*テキストの基点とするためrelativeを指定*/
@@ -595,6 +595,8 @@ img {
         height: 40px;
         display: block;
         font-size: 12px;
+        background-color: #ffffff;
+        color: #333e33;
     }
 }
 
