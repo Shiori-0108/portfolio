@@ -596,8 +596,10 @@ img {
         height: 40px;
         display: block;
         font-size: 12px;
+        font-family: "yu-gothic", sans-serif;
         background-color: #ffffff;
         color: #333e33;
+        font-weight: medium;
     }
 }
 
