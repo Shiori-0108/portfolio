@@ -265,15 +265,12 @@ li>p {
     li>div {
         width: 100%;
         border-right: none;
-        font-family: "yu-gothic-pr6n", sans-serif;
     }
 
     li>p {
         width: 100%;
         padding-left: 60px;
         font-size: 16px;
-        font-family: "yu-gothic-pr6n", sans-serif;
-        line-height: 1.75;
         padding: 15px 0;
     }
 }
@@ -411,16 +408,11 @@ li>p {
 
 
 @media screen and (max-width: 767px) {
-    .favorite_hover_1 {
-        position: none;
-    }
 
-    .favorite_hover_2 {
-        position: none;
-    }
-
-    .favorite_hover_3 {
-        position: none;
+    .favorite_hover_1:hover::before,
+    .favorite_hover_2:hover::before,
+    .favorite_hover_3:hover::before {
+        opacity: 0;
     }
 }
 
