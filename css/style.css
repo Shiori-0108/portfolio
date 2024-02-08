@@ -587,6 +587,7 @@ img {
         height: 40px;
         display: block;
         font-size: 14px;
+        font-weight: normal;
         font-family: "yu-gothic", sans-serif;
         background-color: #fff;
         color: #333e33;
