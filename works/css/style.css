@@ -46,16 +46,16 @@
 }
 
 .gallery h3 {
+    margin-top: 5px;
     font-size: 18px;
-    font-family: "futura-pt", "Noto Sans JP", sans-serif;
-    font-weight: normal;
+    font-family: "yu-gothic", sans-serif;
     line-height: 1.7;
 }
 
 .gallery p {
+    margin-top: 5px;
     font-size: 14px;
-    font-family: "futura-pt", "Noto Sans JP", sans-serif;
-    font-weight: normal;
+    font-family: "yu-gothic", sans-serif;
     line-height: 0.7;
     color: #999999;
 }
@@ -98,14 +98,15 @@
     }
 
     .gallery h3 {
+        margin-top: 5px;
         font-size: 18px;
-        font-family: "futura-pt", "Noto Sans JP", sans-serif;
-        font-weight: normal;
+        font-family: "yu-gothic", sans-serif;
     }
 
     .gallery p {
+        margin-top: 5px;
         font-size: 14px;
-        font-family: "futura-pt", sans-serif;
+        font-family: "yu-gothic", sans-serif;
     }
 
     .gallery li {
@@ -151,7 +152,7 @@
 
 /* WORKS各セクション */
 .detail {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -173,18 +174,16 @@
 
 .detail_title h2 {
     justify-content: flex-start;
-    font-family: "futura-pt", "Noto Sans JP", sans-serif;
+    font-family: "yu-gothic", sans-serif;
     font-weight: 500;
-    font-style: normal;
     font-size: 30px;
     line-height: 1.5rem;
     color: #333e33;
 }
 
 .detail_title p {
-    font-family: "futura-pt", sans-serif;
+    font-family: "yu-gothic", sans-serif;
     font-weight: 500;
-    font-style: normal;
     text-align: start;
     line-height: 1.5rem;
     color: #999999;
@@ -322,18 +321,16 @@
 
     .detail_title h2 {
         justify-content: flex-start;
-        font-family: "futura-pt", "Noto Sans JP", sans-serif;
+        font-family: "yu-gothic", sans-serif;
         font-weight: 500;
-        font-style: normal;
         font-size: 20px;
         color: #333e33;
         margin-top: 50px;
     }
 
     .detail_title p {
-        font-family: "futura-pt", sans-serif;
+        font-family: "yu-gothic", sans-serif;
         font-weight: 500;
-        font-style: normal;
         text-align: start;
         line-height: 1.5rem;
         color: #999999;
