@@ -30,7 +30,7 @@
 
 .gallery {
     max-width: 1000px;
-    margin: 0 auto 200px;
+    margin: 0 auto 400px;
     padding: 0 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
