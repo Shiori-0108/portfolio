@@ -157,7 +157,7 @@
                         <p>贈る人のことを考えて、<br class="sp_only">悩み選んで作る花束のように<br>
                             お客様の想いに寄り添い、<br class="sp_only">カタチにしていく。</p>
                         <p class="about_space">
-                            人と人が繋がるその瞬間に、<br class="sp_only">役に立てますように。</p>
+                            人と人が繋がるその瞬間に、<br class="sp_only">お役に立てますように。</p>
                         <a href="about/index.html" class="about_btntextchange"><span>VIEW
                                 MORE</span><span>もっと見る</span></a>
                     </div>
@@ -275,6 +275,18 @@
                     }
                 ]
             });
+        });
+
+        // ナビゲーションメニューのリンクがクリックされた時の処理
+        $('.sp_nav a').on('click', function (e) {
+            e.preventDefault(); // リンクのデフォルトの動作を無効化
+
+            var target = $(this).attr('href'); // クリックされたリンクの href 属性を取得
+            var offset = $(target).offset().top; // リンク先要素の上部位置を取得
+
+            $('html, body').animate({
+                scrollTop: offset
+            }, 500); // スクロールアニメーションを実行
         });
     </script>
 
