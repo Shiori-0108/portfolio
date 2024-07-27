@@ -30,12 +30,12 @@
 
 .gallery {
     max-width: 1000px;
-    margin: 0 auto 400px;
+    margin: 0 auto 1000px;
     padding: 0 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 9.5% 8.5%;
-    padding-bottom: 40px;
+    padding-bottom: 200px;
 }
 
 .gallery_menu {
