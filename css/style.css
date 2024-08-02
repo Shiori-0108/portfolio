@@ -242,6 +242,9 @@ img {
     line-height: 1.9;
     text-align: justify;
 }
+.service_menu_img{
+    text-align: center;
+}
 
 @media screen and (max-width: 767px) {
     .service {
